@@ -106,7 +106,7 @@ export default function Countdown() {
     // Container div for centering the content
     <div className="flex flex-col items-center justify-center h-screen bg-slate-500 dark:bg-gray-900">
       {/* Timer box container */}
-      <div className=" dark:bg-gray-800 shadow-lg rounded-1xl [box-shadow:0px_0px_20px_black] bg-slate-300 p-8 w-full max-w-md">
+      <div className=" dark:bg-gray-800 shadow-lg rounded-2xl [box-shadow:0px_0px_20px_black] bg-slate-300 p-8 w-full max-w-md">
         {/* Title of the countdown timer */}
         <h1 className="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-200 text-center">
           Countdown Timer
