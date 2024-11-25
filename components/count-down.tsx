@@ -1,4 +1,4 @@
-"use client"; // Enables client-side rendering for this component
+"use client"; 
 
 import { useState, useRef, useEffect, ChangeEvent } from "react"; // Import React hooks and types
 import { Input } from "@/components/ui/input"; // Import custom Input component
@@ -104,9 +104,9 @@ export default function Countdown() {
   // JSX return statement rendering the Countdown UI
   return (
     // Container div for centering the content
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900">
+    <div className="flex flex-col items-center justify-center h-screen bg-slate-500 dark:bg-gray-900">
       {/* Timer box container */}
-      <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-8 w-full max-w-md">
+      <div className=" dark:bg-gray-800 shadow-lg rounded-2xl bg-slate-300 p-8 w-full max-w-md">
         {/* Title of the countdown timer */}
         <h1 className="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-200 text-center">
           Countdown Timer
